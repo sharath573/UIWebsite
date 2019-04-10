@@ -114,7 +114,8 @@ body{
     display: inline;
     color: #82BEE0;
     font: normal 20px'Century Gothic', sans-serif;
-     padding-right: 30px;
+     padding-right: 10px;
+     padding-left: 10px;
 }
 #page-intro div a:hover {
     color: #BDFCF8;
@@ -260,16 +261,26 @@ body{
     display: inline-block;
     padding: 30px;
     padding-bottom: 50px;
+    /*background-color: white;*/
 }
 
 
 .about-us div img{
     border-radius: 20%;
-    width: 20%;
-    margin: 10px 100px 100px 0px; 
+    width: 200px;
+    margin: 10px 100px 10px 30px; 
     float: left;
+    /*background-color: white;*/
    
 }
+/*.about-us div img{
+    border-radius: 20%;
+    width: 200px;
+    margin: 10px 100px 100px 0px; 
+    float: left;
+    background-color: white;
+   
+}*/
 .about-us div p{
 /*background-color: lightblue;*/
     padding: 30px;
@@ -281,9 +292,11 @@ body{
 }
 
 .about-us div h3{
+    /*background-color: red;*/
     color: #8BECFF;
     font: normal 25px'Century Gothic', sans-serif;
     font-weight: 100px;
+    padding-left: 30px;
 }
 .about-us div h3:hover{
      color: #107F95;
@@ -298,6 +311,12 @@ body{
     text-align: center;
     overflow: hidden;
     background-image: url("images/techback.jpg");
+}
+@media screen and (min-device-width: 320px) and  (max-device-width: 480px){
+.gallery {display:none;}
+}
+@media screen and (min-device-width: 320px) and  (max-device-width: 480px){
+.scroll-pause {display:none;}
 }
 
 .scroll-pause{
