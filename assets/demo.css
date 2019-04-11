@@ -312,10 +312,10 @@ body{
     overflow: hidden;
     background-image: url("images/techback.jpg");
 }
-@media screen and (min-device-width: 320px) and  (max-device-width: 480px){
+@media screen and (min-device-width: 320px) and  (max-device-width: 600px){
 .gallery {display:none;}
 }
-@media screen and (min-device-width: 320px) and  (max-device-width: 480px){
+@media screen and (min-device-width: 320px) and  (max-device-width: 600px){
 .scroll-pause {display:none;}
 }
 
