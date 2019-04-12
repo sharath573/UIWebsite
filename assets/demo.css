@@ -283,7 +283,7 @@ body{
 .about-us div p{
 /*background-color: lightblue;*/
     padding: 10px;
-    text-align: justify;
+    text-align: fill;
     color: #107F95;
 }
 .about-us div p:hover{
