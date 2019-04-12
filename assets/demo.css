@@ -256,9 +256,9 @@ body{
 
 .about-us div{
     text-align: left;
-    width: 80%;
+    width: 90%;
     display: inline-block;
-    padding: 30px;
+    padding: 5px;
     padding-bottom: 50px;
     /*background-color: white;*/
 }
@@ -272,24 +272,40 @@ body{
     /*background-color: white;*/
    
 }
-/*.about-us div img{
-    border-radius: 20%;
-    width: 200px;
-    margin: 10px 100px 100px 0px; 
-    float: left;
-    background-color: white;
-   
-}*/
 .about-us div p{
 /*background-color: lightblue;*/
     padding: 10px;
-    text-align: fill;
+    text-align: justify;
     color: #107F95;
 }
 .about-us div p:hover{
     color: #8BECFF;
 }
+/*.about-us div{
+    text-align: left;
+    width: 80%;
+    display: inline-block;
+    padding: 30px;
+    padding-bottom: 50px;
+}*/
+/*
+.about-us div img{
+    border-radius: 20%;
+    width: 200px;
+    margin: 10px 100px 10px 10px; 
+    float: left;
+   
+   
+}
+.about-us div p{
 
+    padding: 10px;
+    text-align: justify;
+    color: #107F95;
+}
+.about-us div p:hover{
+    color: #8BECFF;
+}*/
 .about-us div h3{
     /*background-color: red;*/
     color: #8BECFF;
