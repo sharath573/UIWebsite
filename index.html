@@ -325,9 +325,9 @@
 
 <script src="assets/skrollr.min.js"></script>
 
-<!-- <script>
+<script class = "scrollhider">
     skrollr.init();
-</script> -->
+</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
@@ -352,9 +352,7 @@
                 if ($('.gap').css('display') == 'block') {
                     $('.nav').slideUp();
                 }
-
             });
-
             $(window).scroll(function () {
                 $('.section').each(function () {
                     var fromTop = $(this).offset().top;
@@ -366,7 +364,6 @@
                     console.log(fromTop);
                 })
             })
-
         })
     </script>
 </body>
